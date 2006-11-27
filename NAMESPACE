@@ -1,0 +1,9 @@
+export("cleversearch",
+       "resolution",
+       "svcm")
+
+import(Matrix)
+importFrom(splines, splineDesign)
+
+useDynLib(svcm)
+

@@ -1,0 +1,13 @@
+- allow for arbitrary weights; 
+  possible missings could then enter the model with weight zero and be easily
+  estimated due to the use of basis functions.
+
+- add calculation of confidence intervals for effects and fitted values;
+  determination of the variances involve matrix inversion which might become
+  problematic for huge data sets if tensor product approach applied.
+
+- allow 1d case
+
+- the sequential variant of 'svcm' can be extended to *any* dimension  
+
+- introduce memory check before increasing the resolution
