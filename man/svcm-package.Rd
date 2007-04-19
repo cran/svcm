@@ -14,7 +14,7 @@
   \tabular{ll}{
     Package: \tab svcm\cr
     Type: \tab Package\cr
-    Version: \tab 0.1.1\cr
+    Version: \tab 0.1.2\cr
     Date: \tab 2007-04-19\cr
     License: \tab GPL version 2 or newer\cr
     Depends: \tab R (>= 2.4.0), Matrix, splines\cr

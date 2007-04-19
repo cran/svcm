@@ -1,11 +1,14 @@
-citHeader("To cite svcm in publications use:")
+citHeader("To cite package \"svcm\" in publications use:")
+
+if(!exists("meta") || is.null(meta)) meta <- packageDescription("svcm")
+year <- sub(".*(2[[:digit:]]{3})-.*", "\\1", meta$Date)
+vers <- paste("R package version", meta$Version)
 
 citEntry(entry="Manual",
-         title = "svcm: 2d and 3d space-varying coefficient models in R",
-         author = "Susanne Heim",
-         year   = "2006",
-	 note =	 "R package version 0.1.0"
-         )
-
-
+	title = "svcm: 2d and 3d space-varying coefficient models in R",
+	author = "Susanne Heim",
+	year = year,
+	note = vers,
+	textVersion = paste("S. Heim (", year, "). svcm: 2d and 3d space-varying coefficient models in R. ", vers, ".", sep=""))
+	
 
