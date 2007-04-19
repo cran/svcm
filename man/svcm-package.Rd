@@ -12,10 +12,10 @@
 }
 \details{
   \tabular{ll}{
-    Package: \tab SVCM\cr
+    Package: \tab svcm\cr
     Type: \tab Package\cr
-    Version: \tab 0.1.0\cr
-    Date: \tab 2006-11-27\cr
+    Version: \tab 0.1.1\cr
+    Date: \tab 2007-04-19\cr
     License: \tab GPL version 2 or newer\cr
     Depends: \tab R (>= 2.4.0), Matrix, splines\cr
     LazyLoad: \tab yes\cr
@@ -48,7 +48,7 @@
 \author{
   Susanne Heim, with support from Paul Eilers, Thomas Kneib, and Michael Kobl
 
-  Maintainer: Susanne Heim <susanne.heim@gmx.de>
+  Maintainer: Susanne Heim <susanneheim@gmx.net>
 }
 \references{
   Dierckx P. (1982) A fast algorithm for smoothing data on a rectangular

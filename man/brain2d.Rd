@@ -9,7 +9,7 @@
   elements (regression coefficients) using a transform of the applied
   gradients as regressors. 
 }
-\usage{data(brain)}
+\usage{data(brain2d)}
 \format{
   The first two dimensions provide the transformed signal intensities of
   one brain slice sized 90 \eqn{\times}{x} 75 voxels. The third
